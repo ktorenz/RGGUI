@@ -1,0 +1,5 @@
+# RG — software download URL(s).
+# The app's self-updater downloads the exe from the FIRST url listed here;
+# extra lines act as backups. Edit this file to move the download host —
+# no app rebuild needed.
+https://raw.githubusercontent.com/ktorenz/RGGUI/main/dist/RGS.exe

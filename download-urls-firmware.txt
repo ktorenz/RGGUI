@@ -1,0 +1,38 @@
+# RG — firmware download URLs.
+# The app fetches this file before every firmware flash; a URL listed here
+# OVERRIDES the one built into the app. Edit lines to move hosting —
+# no app rebuild needed.
+#
+# Format:
+#   gun      <micro_usb|usb_c> <P1..P4> <url>
+#   receiver <micro_usb|usb_c> <P1..P4> <url>
+#   nuke     <micro_usb|usb_c> <url>
+# usb_c = Pro Model (USB-C).  micro_usb = Old Model (Micro-USB).
+
+# ---- LightGun firmware — Pro Model (USB-C) ----
+gun usb_c P1 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/usb_c/gun/Gun-P1.uf2
+gun usb_c P2 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/usb_c/gun/Gun-P2.uf2
+gun usb_c P3 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/usb_c/gun/Gun-P3.uf2
+gun usb_c P4 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/usb_c/gun/Gun-P4.uf2
+
+# ---- LightGun firmware — Old Model (Micro-USB) ----
+gun micro_usb P1 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/micro_usb/gun/Gun-P1.uf2
+gun micro_usb P2 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/micro_usb/gun/Gun-P2.uf2
+gun micro_usb P3 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/micro_usb/gun/Gun-P3.uf2
+gun micro_usb P4 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/micro_usb/gun/Gun-P4.uf2
+
+# ---- Receiver firmware — Pro Model (USB-C) ----
+receiver usb_c P1 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/usb_c/Receiver/Receiver-P1.uf2
+receiver usb_c P2 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/usb_c/Receiver/Receiver-P2.uf2
+receiver usb_c P3 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/usb_c/Receiver/Receiver-P3.uf2
+receiver usb_c P4 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/usb_c/Receiver/Receiver-P4.uf2
+
+# ---- Receiver firmware — Old Model (Micro-USB) ----
+receiver micro_usb P1 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/micro_usb/Receiver/Receiver-P1.uf2
+receiver micro_usb P2 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/micro_usb/Receiver/Receiver-P2.uf2
+receiver micro_usb P3 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/micro_usb/Receiver/Receiver-P3.uf2
+receiver micro_usb P4 https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/micro_usb/Receiver/Receiver-P4.uf2
+
+# ---- Flash Nuke ----
+nuke usb_c https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/usb_c/flash_nuke/flash_nuke.uf2
+nuke micro_usb https://raw.githubusercontent.com/ktorenz/RGGUI/main/firmware/micro_usb/flash_nuke/flash_nuke.uf2

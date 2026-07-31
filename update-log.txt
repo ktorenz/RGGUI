@@ -1,0 +1,6 @@
+# RG — latest released versions.
+# The app checks this file at startup; a version newer than the installed
+# one shows the "update available" notification.
+Retro Gunner GUI v26.08.01
+Gun Firmware 26.07.06
+USB Firmware 26.07.06
