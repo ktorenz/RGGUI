@@ -3,4 +3,4 @@
 # one shows the "update available" notification.
 Retro Gunner GUI v26.08.01
 Gun Firmware 26.07.31
-USB Firmware 26.07.31
+USB Firmware 26.08.03
